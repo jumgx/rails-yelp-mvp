@@ -9,5 +9,5 @@
     <li class="list-group-item"><%= review.content %></li>
   <% end %>
 </ul>
-
+<%= link_to "Ajouter une review", new_restaurant_review_path(@restaurant) %>
 <%= link_to "Retour à la liste", restaurants_path %>
